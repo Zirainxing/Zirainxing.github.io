@@ -9,12 +9,20 @@ The source code will be released upon acceptance of the paper.
   <font size=4 color=black>IROS 2025</font>
 </div>
 
-<!--
-[author1](https://www.yuque.com/zhangjiatao-grdyv/rn49ht/lq7xzy4xmxgrpgz9), [author2](https://www.yuque.com/zhangjiatao-grdyv/rn49ht/vsarazgdts43o7y4)
--->
-
 ## Abstract
 Large language models (LLMs) are widely employed for reflective error correction in task planning; however,existing methods heavily rely on self-exploration, rendering them susceptible to erroneous experiences accumulated from ineffective attempts. To overcome these limitations, we propose the Flexible Instructional Scaffold Reflection Framework (FISRF), an agent-mentor architecture that assesses the difficulty of correction and magnitude of improvement to adaptively select reflection strategies and mentorship when appropriate,thereby efficiently accumulating effective error correction experience. Experiments in ALFWorld and on real-world robotic platforms demonstrate that FISRF reduces the average number of error correction rounds by 37% and redundant reasoning by 25.1%, while improving overall task success rates by 8%.Project webpage (anonymized, no author information): https://zirainxing.github.io/fisrf.github.io/
+
+## Paper
+<!-- <iframe  width="400" height="420" src="./DyRef.pdf"></iframe> -->
+
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+  <iframe 
+    src="./fisrf.pdf" 
+    width="600" 
+    height="600" 
+    style="border: none;">
+  </iframe>
+</div>
 
 ## Results
 Performance of our DyRef in an AlfWorld example:
